@@ -17,6 +17,6 @@ public class CourseController {
 
     @GetMapping ("/courses/1")
     public Courses getOneCourse(){
-        return new Courses(1,"Programming in Java","Tejas Kumar S");
+        return new Courses(1,"Programming in Java 2","Tejas Kumar S");
     }
 }
